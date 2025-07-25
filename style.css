@@ -260,3 +260,51 @@ nav ul li:nth-child(4) a {
     }
 }
 
+/* Flower & Plants Lover css */
+.flower-container {
+    display: flex;
+    width: 100%;
+
+}
+
+.flower-container .img {
+    position: relative;
+}
+
+.flower-container .badge {
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    right: -100px;
+    top: 0px;
+    transform: translatey(-50%);
+}
+
+.flower-content {
+    padding: 30px 0px 0px 60px;
+}
+
+.flower-content ul li {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 575px) {
+    .flower-container {
+        flex-direction: column;
+    }
+
+    .flower-container .main-image {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .flower-content {
+        padding: 15px;
+    }
+
+}
+
